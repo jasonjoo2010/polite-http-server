@@ -3,7 +3,7 @@ Polite Http Server
 
 # Intro
 
-This is a polite HTTP server. Good manners makes it. They are as follows:  
+This is a polite HTTP server for testing purpose. Good manners makes it. They are as follows:  
 
 - It will do a graceful shutdown after receiving a stop signal(HUP/INT/QUIT). The graceful period is 30s and it will stop the listener and quit after then.
 - It provides a probing API(/readyz) which returns 503 error during the graceful period.
